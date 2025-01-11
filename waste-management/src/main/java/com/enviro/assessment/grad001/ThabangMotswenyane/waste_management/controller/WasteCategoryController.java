@@ -31,4 +31,3 @@ public class WasteCategoryController {
 //
 //What’s Next?
 //Once this works, we can add more functionality, such as creating, updating, and deleting waste categories.
-//Let me know how far you get and if there’s anything unclear!
