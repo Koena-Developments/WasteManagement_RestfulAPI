@@ -20,4 +20,13 @@ public class WasteCategoryService {
         return repository.save(wasteCategory);
     }
 
+    public WasteCategory findById(Long id) {
+        return repository.findById(id).orElse(null);
+    }
+
+    public void deleteWasteCategory(Long id) {
+        repository.deleteById(id);
+    }
+
+
 }
