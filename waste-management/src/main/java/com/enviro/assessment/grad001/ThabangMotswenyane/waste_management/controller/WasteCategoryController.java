@@ -2,6 +2,7 @@ package com.enviro.assessment.grad001.ThabangMotswenyane.waste_management.contro
 
 import com.enviro.assessment.grad001.ThabangMotswenyane.waste_management.model.WasteCategory;
 import com.enviro.assessment.grad001.ThabangMotswenyane.waste_management.service.WasteCategoryService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +22,7 @@ public class WasteCategoryController {
     }
 
     @PostMapping
-    public WasteCategory createWasteCategory(@RequestBody WasteCategory wasteCategory) {
+    public WasteCategory createWasteCategory(@Valid @RequestBody WasteCategory wasteCategory) {
         return service.saveWasteCategory(wasteCategory);
     }
 
