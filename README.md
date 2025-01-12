@@ -24,7 +24,7 @@ The **Waste Management API** is a Spring Boot application designed to manage was
 To run this application, ensure you have the following installed:
 - **Java 17**
 - **Maven**
-- **Docker** (optional for containerized deployment)
+- **Docker** (optional)
 
 ---
 
