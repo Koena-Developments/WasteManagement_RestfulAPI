@@ -56,7 +56,7 @@ bash
 docker build -t waste-management .
 Run the Docker container:
 bash
-Copy code
+
 docker run -p 8080:8080 waste-management
 Access the API at http://localhost:8080.
 
@@ -99,11 +99,14 @@ json
 }
 Delete Waste Category
 DELETE /api/waste-categories/{id}
+
 Disposal Guidelines
 Get All Disposal Guidelines
 GET /api/disposal-guidelines
+
 Get Disposal Guideline by ID
 GET /api/disposal-guidelines/{id}
+
 Create Disposal Guideline
 POST /api/disposal-guidelines
 Body:
@@ -112,6 +115,7 @@ json
     "wasteCategory": "Plastic",
     "guideline": "Recycle in blue bins"
 }
+
 Update Disposal Guideline
 PUT /api/disposal-guidelines/{id}
 Body:
@@ -120,13 +124,17 @@ json
     "wasteCategory": "Glass",
     "guideline": "Recycle in designated bins"
 }
+
 Delete Disposal Guideline
 DELETE /api/disposal-guidelines/{id}
+
 Recycling Tips
 Get All Recycling Tips
 GET /api/recycling-tips
+
 Get Recycling Tip by ID
 GET /api/recycling-tips/{id}
+
 Create Recycling Tip
 POST /api/recycling-tips
 Body:
@@ -134,6 +142,7 @@ json
 {
     "tip": "Reuse jars as containers"
 }
+
 Update Recycling Tip
 PUT /api/recycling-tips/{id}
 Body:
@@ -144,13 +153,18 @@ json
 }
 Delete Recycling Tip
 DELETE /api/recycling-tips/{id}
+
 Error Handling
 The API provides detailed error messages in JSON format:
 
 400 Bad Request: Validation errors (e.g., missing required fields).
+
 404 Not Found: Resource not found.
+
 500 Internal Server Error: Unexpected server errors.
+
 Development Workflow
+
 Technologies Used
 Spring Boot: Backend framework for REST API development.
 Hibernate/JPA: ORM for database interaction.
