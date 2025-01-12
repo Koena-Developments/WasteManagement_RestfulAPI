@@ -1,4 +1,4 @@
-package com.enviro.assessment.grad001.ThabangMotswenyane.exception;
+package com.enviro.assessment.grad001.ThabangMotswenyane.waste_management.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

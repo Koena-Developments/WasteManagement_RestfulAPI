@@ -15,6 +15,13 @@ public class DisposalGuideline {
     private String wasteCategory;
     private String guideline;
 
+
+    public DisposalGuideline(Long id, String wasteCategory, String guideline)
+    {
+        this.id = id;
+        this.wasteCategory = wasteCategory;
+        this.guideline = guideline;
+    }
     // Getters and Setters
     public Long getId() {
         return id;

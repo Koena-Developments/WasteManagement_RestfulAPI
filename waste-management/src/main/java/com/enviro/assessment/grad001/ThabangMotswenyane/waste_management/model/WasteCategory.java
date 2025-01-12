@@ -20,6 +20,13 @@ public class WasteCategory {
     @Size(max = 255, message = "Description cannot exceed 255 characters")
     private String description;
 
+    public WasteCategory(Long id, String Name, String Description)
+    {
+        this.id = getId();
+        this.name = Name;
+        this.description = Description;
+    }
+
     // Getters and Setters
     public Long getId() {
         return id;
