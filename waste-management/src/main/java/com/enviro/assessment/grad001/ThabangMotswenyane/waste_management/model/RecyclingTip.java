@@ -15,6 +15,9 @@ public class RecyclingTip {
     @NotBlank(message = "Tip is required")
     private String tip;
 
+    public RecyclingTip() {
+    }
+
     public RecyclingTip(Long ID, String Tip)
     {
         this.id = ID;

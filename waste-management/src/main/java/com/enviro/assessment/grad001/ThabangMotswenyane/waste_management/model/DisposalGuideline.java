@@ -15,7 +15,10 @@ public class DisposalGuideline {
     private String wasteCategory;
     private String guideline;
 
+    public DisposalGuideline()
+    {
 
+    }
     public DisposalGuideline(Long id, String wasteCategory, String guideline)
     {
         this.id = id;
