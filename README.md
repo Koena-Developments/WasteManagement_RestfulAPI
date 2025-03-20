@@ -68,7 +68,7 @@ Navigate to: http://localhost:8080/h2-console.
 Use the following credentials:
 JDBC URL: jdbc:h2:mem:testdb
 Username: thabang
-Password: 9906165353086Tm#
+Password:
 Testing the API
 You can use tools like Postman, cURL, or any REST client to interact with the API.
 
